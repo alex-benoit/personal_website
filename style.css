@@ -1,0 +1,154 @@
+html {
+  font-family:'Open Sans', sans-serif;
+  width:100%;
+  height:100%;
+  overflow:hidden
+  }
+
+body {
+  overflow:hidden;
+  background:#0f1b58;
+  background-image:-webkit--webkit-radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),-webkit--webkit-linear-gradient(342deg, #efb676, #e0a681 10%, #0f1b58 90%);
+  background-image:-webkit--moz-radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),-webkit--moz-linear-gradient(342deg, #efb676, #e0a681 10%, #0f1b58 90%);
+  background-image:-webkit--o-radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),-webkit--o-linear-gradient(342deg, #efb676, #e0a681 10%, #0f1b58 90%);
+  background-image:-webkit--ms-radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),-webkit--ms-linear-gradient(342deg, #efb676, #e0a681 10%, #0f1b58 90%);
+  background-image:-webkit-radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),-webkit-linear-gradient(108deg, #efb676, #e0a681 10%, #0f1b58 90%);
+  background-image:-moz--webkit-radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),-moz--webkit-linear-gradient(342deg, #efb676, #e0a681 10%, #0f1b58 90%);
+  background-image:-moz--moz-radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),-moz--moz-linear-gradient(342deg, #efb676, #e0a681 10%, #0f1b58 90%);
+  background-image:-moz--o-radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),-moz--o-linear-gradient(342deg, #efb676, #e0a681 10%, #0f1b58 90%);
+  background-image:-moz--ms-radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),-moz--ms-linear-gradient(342deg, #efb676, #e0a681 10%, #0f1b58 90%);
+  background-image:-moz-radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),-moz-linear-gradient(108deg, #efb676, #e0a681 10%, #0f1b58 90%);
+  background-image:-ms--webkit-radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),-ms--webkit-linear-gradient(342deg, #efb676, #e0a681 10%, #0f1b58 90%);
+  background-image:-ms--moz-radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),-ms--moz-linear-gradient(342deg, #efb676, #e0a681 10%, #0f1b58 90%);
+  background-image:-ms--o-radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),-ms--o-linear-gradient(342deg, #efb676, #e0a681 10%, #0f1b58 90%);
+  background-image:-ms--ms-radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),-ms--ms-linear-gradient(342deg, #efb676, #e0a681 10%, #0f1b58 90%);
+  background-image:-ms-radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,0.2)),-ms-linear-gradient(108deg, #efb676, #e0a681 10%, #0f1b58 90%)
+  }
+
+#particles {
+  position:absolute;
+  overflow:hidden;
+  width:100%;
+  height:100%;
+  min-width:100%;
+  min-height:100%;
+  z-index:5
+}
+
+a {
+  text-decoration:none
+}
+a:hover {
+  background-color:inherit;
+  text-decoration:underline
+}
+
+table,caption,tbody,tfoot,thead,tr,th,td {
+  border:0;
+  outline:0;
+  vertical-align:baseline;
+  background:transparent
+  }
+
+tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
+  background-color:inherit
+  }
+
+.container {
+  position:absolute;
+  display:table;
+  width:90%;
+  height:100%;
+  margin-top:-3rem;
+  margin-left:5%;
+  overflow:hidden;
+  z-index:10
+}
+
+.home-main {
+  display:table-cell;
+  vertical-align:middle
+}
+
+.home-header {
+  margin-bottom:.3rem
+}
+
+.home-name {
+  margin-bottom:.2rem;
+  color:#fff;
+  font-size:38pt;
+  font-weight:300
+}
+
+.home-subtitle {
+  color:#f2f2f2;
+  font-size:18pt;
+  font-weight:300;
+  font-style:italic
+}
+
+.home-subtitle a {
+  color:inherit
+}
+
+.home-nav {
+  font-size:17pt
+}
+
+.home-nav td {
+  padding-top:0px;
+  padding-left:0px;
+  padding-bottom:0px
+}
+
+.home-nav td.home-nav-primary {
+  padding-right:2rem
+}
+
+.home-nav-primary a {
+  color:#b3d8ff;
+  font-weight:300
+}
+
+.home-nav-secondary a {
+  font-weight:300;
+  color:#99cbff
+}
+
+.home-nav-secondary span:after {
+  content:' /';
+  color:#999
+}
+
+.home-nav-secondary span:last-of-type:after {
+  content:''
+}
+
+@media only screen and (max-device-width: 640px) {
+  .home-name {
+    font-size:30pt
+  }
+
+  .home-subtitle {
+    font-size:14pt
+  }
+
+  .home-nav {
+    font-size:13pt
+  }
+}
+
+@media only screen and (max-device-width: 1080px) and (-webkit-device-pixel-ratio: 3) {
+  .home-name {
+    font-size:30pt
+  }
+
+  .home-subtitle {
+    font-size:14pt
+  }
+
+  .home-nav {
+    font-size:13pt
+  }
+}
