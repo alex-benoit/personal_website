@@ -1,21 +1,17 @@
 html {
   font-family:'Open Sans', sans-serif;
 }
-
 body {
-  overflow:hidden;
-  background: #4b6cb7;
-  background: -webkit-linear-gradient(to left, #4b6cb7 , #182848);
-  background: linear-gradient(to left, #4b6cb7 , #182848);
+  margin: 0;
 }
 
 #particles {
-  position:absolute;
   overflow:hidden;
+  background: #4b6cb7;
+  background: -webkit-linear-gradient(135deg, #0F1E54 15%, #C89A77);
+  background: linear-gradient(135deg, #0F1E54 15%, #C89A77);
   width:100%;
-  height:100%;
-  min-width:100%;
-  min-height:100%;
+  height:100vh;
 }
 
 a {
@@ -23,7 +19,7 @@ a {
 }
 a:hover {
   background-color:inherit;
-  text-decoration:underline
+  text-decoration:underline;
 }
 
 table,caption,tbody,tfoot,thead,tr,th,td {
@@ -40,12 +36,9 @@ tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
 .container {
   position:absolute;
   display:table;
-  width:90%;
-  height:100%;
-  margin-top:-3rem;
-  margin-left:5%;
+  height:100vh;
+  margin: 0 10%;
   overflow:hidden;
-  z-index:10
 }
 
 .home-main {
@@ -134,4 +127,41 @@ tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
   .home-nav {
     font-size:13pt
   }
+}
+
+
+#about {
+  overflow:hidden;
+  background: #4b6cb7;
+  background: -webkit-linear-gradient(135deg, #0F1E54 15%, #C89A77);
+  background: linear-gradient(135deg, #0F1E54 15%, #C89A77);
+  width:100%;
+  height:100vh;
+}
+
+#contact {
+  overflow:hidden;
+  background: #4b6cb7;
+  background: -webkit-linear-gradient(135deg, #0F1E54 15%, #C89A77);
+  background: linear-gradient(135deg, #0F1E54 15%, #C89A77);
+  width:100%;
+  height:100vh;
+}
+
+#projects {
+  overflow:hidden;
+  background: #4b6cb7;
+  background: -webkit-linear-gradient(135deg, #0F1E54 15%, #C89A77);
+  background: linear-gradient(135deg, #0F1E54 15%, #C89A77);
+  width:100%;
+  height:100vh;
+}
+
+#resume {
+  overflow:hidden;
+  background: #4b6cb7;
+  background: -webkit-linear-gradient(135deg, #0F1E54 15%, #C89A77);
+  background: linear-gradient(135deg, #0F1E54 15%, #C89A77);
+  width:100%;
+  height:100vh;
 }
