@@ -1,50 +1,71 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<html lang="en">
   <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
-    <meta name="description" content="Alexandre Benoit is a Full-Stack Web Developer that graduated in EEE from Imperial College London in 2016. He previously interned at VMware, Cisco and was a TA at Le Wagon.">
     <title>Alex Benoit</title>
+    <meta name="description" content="Alexandre Benoit is a Full-Stack Web Developer that graduated in EEE from Imperial College London in 2016. He previously interned at VMware, Cisco and was a TA at Le Wagon.">
+    <meta name="author" content="Alex Benoit">
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
-      <div id="particles">
-        <div class="container">
-          <div class="home-main">
-            <div class="home-header">
-              <h1 class="home-name">Alexandre Benoit</h1>
-              <div class="home-subtitle">Full-stack Web Developer. Imperial College EEE alum.</div>
-              <div class="home-subtitle">Formerly: VMware, Cisco, LeWagon.</div>
-            </div>
-            <table class="home-nav">
-              <tr class="home-nav-section">
-                <td class="home-nav-secondary">
-                  <span><a href="#about">about</a></span>
-                  <span><a href="#resume">r&eacute;sum&eacute;</a></span>
-                  <span><a href="#projects">projects</a></span>
-                  <span><a href="#contact">contact</a></span>
-                </td>
-              </tr>
-            </table>
+    <div class="navbar-fixed" id="navbar">
+      <div class="navbar-container">
+        <table class="navbar-nav">
+          <tr class="navbar-nav-section">
+            <td class="navbar-nav-primary">
+              <span><a href="#about">about</a></span>
+              <span><a href="#resume">r&eacute;sum&eacute;</a></span>
+              <span><a href="#projects">projects</a></span>
+              <span><a href="#contact">contact</a></span>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div id="particles">
+      <div class="container">
+        <div class="home-main">
+          <div class="home-header">
+            <h1 class="home-name">Alexandre Benoit</h1>
+            <div class="home-subtitle">Full-stack Web Developer. Imperial College EEE alum.</div>
+            <div class="home-subtitle">Formerly: VMware, Cisco, LeWagon.</div>
           </div>
+
         </div>
       </div>
-      <div id="about">
-        <h1>about me</h1>
-      </div>
-      <div id="resume">
-        <h1>my resume</h1>
-      </div>
-      <div id="projects">
-        <h1>my projects</h1>
-      </div>
-      <div id="contact">
-        <h1>contact me</h1>
-      </div>
+    </div>
+    <div id="about">
+      <h1>about me</h1>
+    </div>
+    <div id="resume">
+      <h1>my resume</h1>
+    </div>
+    <div id="projects">
+      <h1>my projects</h1>
+    </div>
+    <div id="contact">
+      <h1>contact me</h1>
+      <form method="POST" action="http://formspree.io/alexander.benoit@outlook.com">
+        <input type="email" name="email" placeholder="Your email">
+        <textarea name="message" placeholder="Your message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
 
-      <script src="particles.js" data-cfasync="true"></script>
-      <script type="text/javascript">
-        particlesJS('particles', {"particles":{"number":{"value":350,"density":{"enable":true,"value_area":1200}},"color":{"value":"#C9C9C9"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":1,"random":true,"anim":{"enable":true,"speed":1,"opacity_min":0,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":4,"size_min":0.3,"sync":false}},"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":1,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":600}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"bubble"},"onclick":{"enable":false,"mode":"bubble"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":250,"size":0,"duration":2,"opacity":0,"speed":3},"repulse":{"distance":400,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});</script> <script>!function(e,a,t,n,c,o,s){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,o=a.createElement(t),s=a.getElementsByTagName(t)[0],o.async=1,o.src=n,s.parentNode.insertBefore(o,s)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-34248999-1","auto"),ga("send","pageview");
-      </script>
+    <script src="jquery-3.1.0.js"></script>
+    <script src="particles.js"></script>
+    <script type="text/javascript">
+      particlesJS('particles', {"particles":{"number":{"value":350,"density":{"enable":true,"value_area":1200}},"color":{"value":"#C9C9C9"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":1,"random":true,"anim":{"enable":true,"speed":1,"opacity_min":0,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":4,"size_min":0.3,"sync":false}},"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":1,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":600}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"bubble"},"onclick":{"enable":false,"mode":"bubble"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":250,"size":0,"duration":2,"opacity":0,"speed":3},"repulse":{"distance":400,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});</script> <script>!function(e,a,t,n,c,o,s){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,o=a.createElement(t),s=a.getElementsByTagName(t)[0],o.async=1,o.src=n,s.parentNode.insertBefore(o,s)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-34248999-1","auto"),ga("send","pageview");
+    </script>
   </body>
 </html>
