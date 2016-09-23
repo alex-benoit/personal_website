@@ -131,27 +131,21 @@ a:hover {
 
 #contact {
   overflow:hidden;
-  background: #4b6cb7;
-  background: -webkit-linear-gradient(135deg, #0F1E54 15%, #C89A77);
-  background: linear-gradient(135deg, #0F1E54 15%, #C89A77);
+  background: #C0C3C6;
   width:100%;
   height:calc(100vh - 70px);
 }
 
 #projects {
   overflow:hidden;
-  background: #4b6cb7;
-  background: -webkit-linear-gradient(135deg, #0F1E54 15%, #C89A77);
-  background: linear-gradient(135deg, #0F1E54 15%, #C89A77);
+  background: #EDEEEF;
   width:100%;
   height:calc(100vh - 70px);
 }
 
 #resume {
   overflow:hidden;
-  background: #4b6cb7;
-  background: -webkit-linear-gradient(135deg, #0F1E54 15%, #C89A77);
-  background: linear-gradient(135deg, #0F1E54 15%, #C89A77);
+  background: #C0C3C6;
   width:100%;
   height:calc(100vh - 70px);
 }
