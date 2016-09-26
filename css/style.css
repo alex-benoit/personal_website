@@ -190,7 +190,7 @@ a {
 }
 
 .navbar-nav-primary a:hover {
-  text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
+  text-shadow: 0px 0px 8px rgba(255,255,255,0.9);
 }
 
 
