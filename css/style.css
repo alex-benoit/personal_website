@@ -116,30 +116,29 @@ a {
 /*  Pages  */
 
 #about {
+  background: #EFEFEF;
+  height: 100%;
   overflow:hidden;
-  background: #EDEEEF;
-  width:100%;
-  height:calc(100vh - 70px);
 }
 
 #contact {
+  background: #DEDEDE;
   overflow:hidden;
-  background: #C0C3C6;
-  width:100%;
-  height:calc(100vh - 70px);
+}
+
+#contact label {
+  display: block;
+  padding-bottom: 5px;
 }
 
 #projects {
+  background: #EFEFEF;
   overflow:hidden;
-  background: #EDEEEF;
-  width:100%;
-  height:calc(100vh - 70px);
 }
 
 #resume {
-  background: #C0C3C6;
-  width:100%;
-  height:calc(100vh - 70px);
+  background: #DEDEDE;
+  overflow:hidden;
 }
 
 .container-sections {
