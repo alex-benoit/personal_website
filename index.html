@@ -8,8 +8,10 @@
     <meta name="author" content="Alex Benoit">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Lato:300,300i,400" rel="stylesheet" type="text/css">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap.css">
     <link rel="icon" type="img/ico" href="icons/favicon.ico">
   </head>
 
@@ -31,7 +33,7 @@
 
     <!-- HOME -->
     <div id="particles">
-      <div class="container">
+      <div class="container-main">
         <div class="home-main">
           <div class="home-header">
             <h1 class="home-name slideDown">Alexandre Benoit</h1>
@@ -46,7 +48,9 @@
 
     <!-- ABOUT -->
     <div id="about">
-      <div class="container-sections"><h1>About Me</h1></div>
+      <div class="container-sections">
+        <h1>About Me</h1>
+      </div>
     </div>
 
     <!-- RESUME -->
@@ -58,17 +62,20 @@
 
     <!-- WORK -->
     <div id="projects">
-      <div class="container-sections"><h1>My Work</h1></div>
+      <div class="container-sections">
+        <h1>My Work</h1>
+      </div>
     </div>
 
     <!-- CONTACT -->
     <div id="contact">
-      <div class="container-sections"><h1>Contact Me</h1>
-        <form method="POST" action="http://formspree.io/alexander.benoit@outlook.com">
-          <input type="email" name="email" placeholder="Your email">
-          <textarea name="message" placeholder="Your message"></textarea>
-          <button type="submit">Send</button>
-        </form>
+      <div class="container-sections">
+        <h1>Contact Me</h1>
+          <form method="POST" action="http://formspree.io/alexander.benoit@outlook.com">
+            <input type="email" class="form-control" name="email" placeholder="Your email">
+            <textarea name="message" class="form-control" placeholder="Your message"></textarea>
+            <button type="submit">Send</button>
+          </form>
       </div>
     </div>
 

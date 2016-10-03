@@ -1,6 +1,6 @@
 $(document).ready(function(){
   var userHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-  var startFade = userHeight - userHeight/3;
+  var startFade = userHeight - userHeight/2;
   var endFade = userHeight - 70;
   var $navbar = $('#navbar');
   var st = $(this).scrollTop();
