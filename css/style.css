@@ -5,14 +5,14 @@ body {
   margin: 0;
 }
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 #particles {
   overflow:hidden;
-  background: #4b6cb7;
-  background: -webkit-linear-gradient(165deg, #0F1E54 10%, #C89A77);
-  background: linear-gradient(165deg, #0F1E54 10%, #C89A77);
+  background: #1D2D4C;
+  background: -webkit-linear-gradient(165deg, #1D2D4C 10%, #A699AD);
+  background: linear-gradient(165deg, #1D2D4C 10%, #A699AD);
   width:100%;
   height:100vh;
 }
@@ -40,9 +40,9 @@ a {
 }
 
 .home-name {
-  margin-bottom:.4rem;
+  margin-bottom:1.4rem;
   color:#fff;
-  font-size:38pt;
+  font-size:42pt;
   font-weight:300
 }
 
@@ -98,19 +98,37 @@ a {
 /*  Buttons Homepage  */
 
 .button-home {
-  color: #f2f2f2;
-  border: 1px solid #f2f2f2;
-  padding: 10px 15px;
-  border-radius: 3px;
-  font-weight: lighter;
-  opacity: 0.6;
+  color: white;
+  padding: 10px 19px;
+  border-radius: 4px;
+  background: #6688AB;
+  transition: background 0.3s ease;
+  text-decoration: none;
 }
 
 .button-home:hover {
-  opacity: 1;
+  color: white;
+  background: #264D6E;
   text-decoration: none;
-  color: #f2f2f2;
 }
+
+/*  Buttons Contact  */
+
+.button-contact {
+  font-family:'Lato', sans-serif;
+  font-size: 14px;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  background: #6688AB;
+  transition: background 0.3s ease;
+}
+
+.button-contact:hover {
+  color: white;
+  background: #264D6E;
+}
+
 
 
 /*  Pages  */
@@ -168,12 +186,8 @@ a {
   padding-bottom:0px
 }
 
-.navbar-nav td.navbar-nav-primary {
-  padding-right:2rem
-}
-
 .navbar-nav-primary a {
-  color:#b3d8ff;
+  color:#CCD9E2;
   font-weight:300;
   text-decoration:none;
 }

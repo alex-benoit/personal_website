@@ -5,27 +5,26 @@ $(document).ready(function(){
   var $navbar = $('#navbar');
   var st = $(this).scrollTop();
   if ( st <= startFade ) {
-    $navbar.css({ 'background' : 'rgba(11,28,72,0.0)' });
+    $navbar.css({ 'background' : 'rgba(29,45,76,0.0)' });
   } else if ( st > startFade && st < endFade ) {
     var transparancy = ((st/endFade - startFade/endFade) / (1 - startFade/endFade));
-    $navbar.css({ 'background' : `rgba(11,28,72,${transparancy})` });
+    $navbar.css({ 'background' : `rgba(29,45,76,${transparancy})` });
   } else {
-    $navbar.css({ 'background' : 'rgba(11,28,72,1)' });
+    $navbar.css({ 'background' : 'rgba(29,45,76,1)' });
   }
 
   $(window).on('scroll', function() {
     var st = $(this).scrollTop();
     if ( st <= startFade ) {
-      $navbar.css({ 'background' : 'rgba(11,28,72,0.0)' });
+      $navbar.css({ 'background' : 'rgba(29,45,76,0.0)' });
     } else if ( st > startFade && st < endFade ) {
       var transparancy = ((st/endFade - startFade/endFade) / (1 - startFade/endFade));
-      $navbar.css({ 'background' : `rgba(11,28,72,${transparancy})` });
+      $navbar.css({ 'background' : `rgba(29,45,76,${transparancy})` });
     } else {
-      $navbar.css({ 'background' : 'rgba(11,28,72,1)' });
+      $navbar.css({ 'background' : 'rgba(29,45,76,1)' });
     }
   });
 });
-
 
 $(document).ready(function(){
   $('#arrow-down-toAbout').on('click', function() {
