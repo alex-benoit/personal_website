@@ -244,6 +244,12 @@ a {
   background: #264D6E;
 }
 
+/* Input Fields */
+#contact .input-width {
+  font-family:'Lato', sans-serif;
+  resize: none;
+}
+
 
 /*  === FOOTER ===  */
 
