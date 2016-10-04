@@ -45,9 +45,9 @@ $(document).ready(function(){
     $("html, body").animate({scrollTop: targetOffset}, 500);
   });
 
-  $('#toProjects').on('click', function() {
+  $('#toWork').on('click', function() {
     event.preventDefault();
-    var targetOffset = $('#projects').offset().top - 70;
+    var targetOffset = $('#work').offset().top - 70;
     $("html, body").animate({scrollTop: targetOffset}, 500);
   });
 
