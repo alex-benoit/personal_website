@@ -157,12 +157,6 @@ a {
   width: 100%;
 }
 
-.navbar-container {
-  width: 80%;
-  margin: 0 10%;
-  overflow:hidden;
-}
-
 .navbar-nav {
   font-size:17pt;
   margin-left: auto;
@@ -188,7 +182,6 @@ a {
   text-shadow: 0px 0px 8px rgba(255,255,255,0.9);
 }
 
-
 .navbar-nav-primary span:after {
   content:' /';
   color:#999
@@ -206,7 +199,7 @@ a {
 
 @media only screen and (max-device-width: 1080px) and (-webkit-device-pixel-ratio: 3) {
   .navbar-nav {
-    font-size:13pt
+    font-size:14pt
   }
 }
 
