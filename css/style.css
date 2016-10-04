@@ -80,7 +80,7 @@ a {
 }
 
 
-/*  Arrow Down  */
+/*  Arrow Down */
 
 #click-to-scroll {
   opacity: 0.6;
@@ -133,14 +133,45 @@ a {
 
 /*  Pages  */
 
+/*
+COLORS
+857786
+A699AD
+D1CFD4
+CCD9E2
+6688AB
+264D6E
+1E2D4E
+010225
+*/
+
 #about {
-  background: #EFEFEF;
+  background: #857786;
   height: 100%;
   overflow:hidden;
+  min-height: 70vh;
+}
+
+#resume {
+  background: #A699AD;
+  overflow:hidden;
+  min-height: 70vh;
+}
+
+#projects {
+  background: #D1CFD4;
+  overflow:hidden;
+  min-height: 70vh;
 }
 
 #contact {
-  background: #DEDEDE;
+  background: #CCD9E2;
+  overflow:hidden;
+  min-height: 70vh;
+}
+
+#footer{
+  background: #6688AB;
   overflow:hidden;
 }
 
@@ -148,17 +179,6 @@ a {
   display: block;
   padding-bottom: 5px;
 }
-
-#projects {
-  background: #EFEFEF;
-  overflow:hidden;
-}
-
-#resume {
-  background: #DEDEDE;
-  overflow:hidden;
-}
-
 
 
 /*  Navbar  */
