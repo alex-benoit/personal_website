@@ -22,12 +22,12 @@ a {
 }
 
 .container-main {
-  position:absolute;
-  display:table;
+  display: table;
   height: calc(100vh - 70px);
-  width: 80%;
-  margin: 70px 10% 0 10%;
-  overflow:hidden;
+  margin-top: 70px;
+  position: absolute;
+  right: 0;
+  left: 0;
 }
 
 .home-main {
@@ -141,13 +141,6 @@ a {
   overflow:hidden;
 }
 
-.container-sections {
-  position:absolute;
-  display:table;
-  width: 80%;
-  margin: 0 10%;
-  overflow:hidden;
-}
 
 
 /*  Navbar  */
