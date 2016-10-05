@@ -247,6 +247,11 @@ a {
   cursor: pointer;
 }
 
+/* Link to Mail */
+#contact a {
+  color: #6688AB;
+}
+
 /* Input Fields */
 #contact .input-width {
   font-family:'Lato', sans-serif;
