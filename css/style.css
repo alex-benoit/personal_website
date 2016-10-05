@@ -185,7 +185,7 @@ a {
 /*  === ABOUT ===  */
 
 #about {
-  background: #857786;
+  background: #D1CFD4;
   height: 100%;
   overflow:hidden;
   min-height: 50vh;
@@ -196,7 +196,7 @@ a {
 /*  === RESUME ===  */
 
 #resume {
-  background: #A699AD;
+  background: #CCD9E2;
   overflow:hidden;
   min-height: 50vh;
   padding-bottom: 40px;
@@ -204,19 +204,19 @@ a {
 
 
 /*  === WORK ===  */
-
+/*
 #work {
   background: #D1CFD4;
   overflow:hidden;
   min-height: 50vh;
   padding-bottom: 40px;
 }
-
+*/
 
 /*  === CONTACT ===  */
 
 #contact {
-  background: #CCD9E2;
+  background: #A699AD;
   overflow:hidden;
   min-height: 50vh;
   padding-bottom: 40px;
@@ -237,11 +237,14 @@ a {
   border-radius: 4px;
   background: #6688AB;
   transition: background 0.3s ease;
+  border: none;
 }
 
 .button-contact:hover {
   color: white;
   background: #264D6E;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* Input Fields */
@@ -252,8 +255,8 @@ a {
 
 
 /*  === FOOTER ===  */
-
 #footer{
-  background: #6688AB;
+  background: #1E2D4E;
   overflow:hidden;
+  color: #CCD9E2;
 }
