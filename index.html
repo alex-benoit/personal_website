@@ -52,22 +52,30 @@
   </head>
 
   <body>
+    <!-- NAVBAR -->
     <div class="navbar-fixed" id="navbar">
-      <div class="container">
-        <table class="navbar-nav hidden-xs">
-          <tr class="navbar-nav-section">
-            <td class="navbar-nav-primary">
-              <span><a id="toAbout" href="#about">about</a></span>
-              <span><a id="toResume" href="#resume">r&eacute;sum&eacute;</a></span>
-              <span><a id="toWork" href="#work">work</a></span>
-              <span><a id="toContact" href="#contact">contact</a></span>
-            </td>
-          </tr>
-        </table>
-        <div class="hidden-sm hidden-ms hidden-lg">
-          <!-- ADD DROPDOWN ON MOBILE -->
+    <!-- Navigation on Desktop -->
+      <div class="container hidden-xs">
+        <ul class="navigation">
+          <li><a id="toAbout" href="#about">about</a></li>
+          <li><a id="toResume" href="#resume">r&eacute;sum&eacute;</a></li>
+          <li><a id="toWork" href="#work">work</a></li>
+          <li><a id="toContact" href="#contact">contact</a></li>
+        </ul>
+      </div>
+      <!-- Navigation on Mobile -->
+      <div class="container take-width hidden-sm hidden-md hidden-lg">
+        <div class="dropdown">
+          <i onclick="openMenu()" class="fa fa-bars dropbtn"></i>
+          <div id="dropdown" class="dropdown-content">
+            <a id="toAbout" href="#about">about</a>
+            <a id="toResume" href="#resume">r&eacute;sum&eacute;</a>
+            <a id="toWork" href="#work">work</a>
+            <a id="toContact" href="#contact">contact</a>
+          </div>
         </div>
       </div>
+
     </div>
 
     <!-- HOME -->

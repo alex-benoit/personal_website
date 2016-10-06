@@ -1,3 +1,4 @@
+// NAVBAR DESIGN
 $(document).ready(function(){
   var userHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
   var startFade = userHeight - userHeight/2;
@@ -26,34 +27,35 @@ $(document).ready(function(){
   });
 });
 
+// MENU LINKS TO SECTIONS
 $(document).ready(function(){
-  $('#arrow-down-toAbout').on('click', function() {
+  $('#navbar').on('click', '#toAbout', function() {
     event.preventDefault();
     var targetOffset = $('#about').offset().top - 70;
     $("html, body").animate({scrollTop: targetOffset}, 500);
   });
 
-  $('#toAbout').on('click', function() {
-    event.preventDefault();
-    var targetOffset = $('#about').offset().top - 70;
-    $("html, body").animate({scrollTop: targetOffset}, 500);
-  });
-
-  $('#toResume').on('click', function() {
+  $('#navbar').on('click', '#toResume', function() {
     event.preventDefault();
     var targetOffset = $('#resume').offset().top - 70;
     $("html, body").animate({scrollTop: targetOffset}, 500);
   });
 
-  $('#toWork').on('click', function() {
+  $('#navbar').on('click', '#toWork', function() {
     event.preventDefault();
     var targetOffset = $('#work').offset().top - 70;
     $("html, body").animate({scrollTop: targetOffset}, 500);
   });
 
-  $('#toContact').on('click', function() {
+  $('#navbar').on('click', '#toContact', function() {
     event.preventDefault();
     var targetOffset = $('#contact').offset().top - 70;
+    $("html, body").animate({scrollTop: targetOffset}, 500);
+  });
+
+  $('#arrow-down-toAbout').on('click', function() {
+    event.preventDefault();
+    var targetOffset = $('#about').offset().top - 70;
     $("html, body").animate({scrollTop: targetOffset}, 500);
   });
 
@@ -62,4 +64,25 @@ $(document).ready(function(){
     var targetOffset = $('#contact').offset().top - 70;
     $("html, body").animate({scrollTop: targetOffset}, 500);
   });
+});
+
+// MOBILE NAVBAR MENU
+function openMenu() {
+  document.getElementById("dropdown").classList.toggle("show");
+}
+
+$(document).ready(function(){
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  };
 });
