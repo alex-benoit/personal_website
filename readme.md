@@ -1,1 +1,1 @@
-My website. https://alexbenoit.xyz
+My website. http://alexbenoit.xyz
