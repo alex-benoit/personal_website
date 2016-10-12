@@ -3,6 +3,7 @@ html {
 }
 body {
   margin: 0;
+  color: #44525B;
 }
 h1, h2 {
   font-family: 'Roboto Slab', serif;
@@ -10,17 +11,23 @@ h1, h2 {
 h2 {
   font-weight: lighter;
 }
+a {
+  color: #6688AB;
+  text-decoration: none;
+}
+a:hover {
+  color: #1D2D4C;
+  text-decoration: underline;
+}
+.fa:hover {
+  text-decoration: none;
+}
+
 
 /*
 COLORS
-857786
-A699AD
-D1CFD4
-CCD9E2
-6688AB
-264D6E
-1E2D4E
-010225
+1D2D4C / Dark Blue
+6688AB / Light Blue
 */
 
 /*
@@ -129,10 +136,6 @@ MEDIA QUERIES
   height:100vh;
 }
 
-a {
-  text-decoration: none;
-}
-
 .container-main {
   display: table;
   height: calc(100vh - 70px);
@@ -165,9 +168,8 @@ a {
   font-style:italic
 }
 
-.home-button {
-  padding-top: 30px;
-}
+
+
 
 @media only screen and (max-device-width: 992px) {
   .home-name {
@@ -193,7 +195,11 @@ a {
 }
 
 /* Button Home */
-.button-home {
+.home-button {
+  padding-top: 30px;
+}
+
+.home-button-link {
   color: white;
   padding: 10px 19px;
   border-radius: 4px;
@@ -202,15 +208,16 @@ a {
   text-decoration: none;
 }
 
-.button-home:hover {
+.home-button-link:hover {
   background: #264D6E;
+  color: white;
 }
 
 
 /*  === ABOUT ===  */
 
 #about {
-  background: #D1CFD4;
+  background: #F9F9F9;
   height: 100%;
   overflow:hidden;
   min-height: 50vh;
@@ -221,7 +228,7 @@ a {
 /*  === RESUME ===  */
 
 #resume {
-  background: #CCD9E2;
+  background: #DFDFDF;
   overflow:hidden;
   min-height: 50vh;
   padding-bottom: 40px;
@@ -358,19 +365,35 @@ a {
 
 
 /*  === WORK ===  */
-/*
+
 #work {
-  background: #D1CFD4;
+  background: #F9F9F9;
   overflow:hidden;
   min-height: 50vh;
   padding-bottom: 40px;
 }
-*/
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr:hover {
+  background-color: #DFDFDF
+}
+
+td {
+  padding: 5px;
+}
+
+table .fa {
+  font-size: 25px;
+}
 
 /*  === CONTACT ===  */
 
 #contact {
-  background: #A699AD;
+  background: #DFDFDF;
   overflow:hidden;
   min-height: 50vh;
   padding-bottom: 40px;
@@ -400,11 +423,6 @@ a {
   cursor: pointer;
 }
 
-/* Link to Mail */
-#contact a {
-  color: #264D6E;
-}
-
 /* Input Fields */
 #contact .input-width {
   font-family:'Lato', sans-serif;
@@ -415,7 +433,7 @@ a {
 /*  === FOOTER ===  */
 
 #footer{
-  background: #1E2D4E;
+  background: #1D2D4C;
   overflow:hidden;
   color: #CCD9E2;
 }
