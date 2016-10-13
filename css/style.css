@@ -53,6 +53,14 @@ MEDIA QUERIES
   width: 100%;
 }
 
+.navbar-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 80%;
+}
+
 /* Navigation on Desktop */
 .navigation {
   font-size:17pt;
@@ -139,10 +147,11 @@ MEDIA QUERIES
 .container-main {
   display: table;
   height: calc(100vh - 70px);
-  margin-top: 70px;
   position: absolute;
   right: 0;
   left: 0;
+  width: 80%;
+  margin: 70px auto 0 auto;
 }
 
 .home-main {
