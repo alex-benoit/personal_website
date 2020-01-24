@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87455321-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-87455321-2');
-    </script>
-
     <!-- Header Data -->
     <meta charset="utf-8">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
@@ -27,7 +17,7 @@
     <!-- Open Graph Data -->
     <meta property="og:type" content="profile">
     <meta property="og:title" content="Alex Benoit's personal webiste">
-    <meta property="og:url" content="http://www.alexbenoit.xyz/">
+    <meta property="og:url" content="http://alexbenoit.me/">
     <meta property="og:image" content="images/website.png">
     <meta property="profile:first_name" content="Alex">
     <meta property="profile:last_name" content="Benoit">
@@ -62,323 +52,24 @@
   </head>
 
   <body>
-    <!-- NAVBAR -->
-    <div class="navbar-fixed" id="navbar">
-    <!-- Navigation on Desktop -->
-      <div class="navbar-container hidden-xs">
-        <ul class="navigation">
-          <li><a id="toAbout" href="#about">about</a></li>
-          <li><a id="toResume" href="#resume">r&eacute;sum&eacute;</a></li>
-          <li><a id="toWork" href="#work">work</a></li>
-          <li><a id="toContact" href="#contact">contact</a></li>
-        </ul>
-      </div>
-      <!-- Navigation on Mobile -->
-      <div class="container take-width hidden-sm hidden-md hidden-lg">
-        <div class="dropdown">
-          <i onclick="openMenu()" class="fa fa-bars fa-lg dropbtn"></i>
-          <div id="dropdown" class="dropdown-content">
-            <a id="toAbout" href="#about">about</a>
-            <a id="toResume" href="#resume">r&eacute;sum&eacute;</a>
-            <a id="toWork" href="#work">work</a>
-            <a id="toContact" href="#contact">contact</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- HOME -->
     <div id="particles">
       <div class="container-home container-main">
         <div class="home-main">
           <div class="home-header">
             <h1 class="home-name slideDown">Alexandre Benoit.</h1>
-            <div class="home-subtitle slideDown">Full-stack Web Engineer. Developer and Lead Teacher at <a href="https://www.lewagon.com/">Le Wagon</a>.</div>
-            <div class="home-subtitle slideDown">Imperial College EE alumn. Formerly: VMware, Cisco.</div>
+            <div class="home-subtitle slideDown">Lead Engineer at <a href="https://www.bcgdv.com/">BCG Digital Ventures</a>.</div>
+            <div class="home-subtitle slideDown">Formerly: <a href="https://www.lewagon.com/">Le Wagon</a>, VMware, Cisco. Imperial College EE alumn.</div>
           </div>
         </div>
       </div>
-      <a id="arrow-down-toAbout" href="#about"><img id="click-to-scroll" class="floating" src="icons/click-to-scroll.png"></a>
+      <em>Those who are crazy enough to think they can change the world usually do.</em>
     </div>
 
-    <!-- ABOUT -->
-    <div id="about">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-xs-12">
-            <h1>About</h1>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-xs-12 col-md-8 offset-md-2">
-            <p>Graduated from Imperial College London with a MEng in Electrical and Electronic Engineering after doing my high-school education in a bilingual school in Paris.</p>
-            <p>After working at Cisco and VMware as a System Engineer, I currently am working at Le Wagon coding School in London as a full-stack web developer and teacher.</p>
-            <p>I love reading about tech and building stuff.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- RESUME -->
-    <div id="resume">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-xs-12">
-            <h1>Resume</h1>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-xs-12">
-            <a href="https://github.com/alex-felix/alex-felix.github.io/raw/master/docs/cv.pdf">Download full CV as PDF</a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card">June 2012</i></div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="timeline-title">Graduated École Jeannine Manuel in Paris</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p>Passed the French Scientific Baccalaureate with International Option, graduating with First Class Honours (16.3/20) overall with 19/20 in Mathematics.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card">Oct. 2012</i></div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="timeline-title">Started attending Imperial College London</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p>Joined a <a href="http://www.imperial.ac.uk/study/ug/courses/electrical-engineering-department/electrical-and-electronic-engineering-meng/">4 year MEng course</a> in Electrical and Electronic Engineering with Management at the prestigious Imperial College in London.</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-badge primary"><i class="glyphicon glyphicon-credit-card">Summer 2014</i></div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="timeline-title">Placement at Cisco London</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p>Helped develop technical sales opportunities on global Cisco accounts as a Systems Engineer at Cisco London for 3 months over summer.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card">Summer 2015</i></div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="timeline-title">Placement at VMware Paris</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p>Managed a data center used by VMware’s presales and technical product specialist teams in Paris as a Systems Engineer for 6 months during an industrial placement.</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-badge success"><i class="glyphicon glyphicon-credit-card">June. 2016</i></div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="timeline-title">Graduated Imperial College London</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p>Passed the Electrical and Electronic Engineering with Management MEng degree with Honours and a thesis in <a href="https://www.academia.edu/29445813/Monocular_Visual_SLAM_for_Safe_Autonomous_Navigation_of_Miniature_Aerial_Vehicles_in_Unknown_Environments">Autonomous Drone Flight</a></p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card">Sept. 2016</i></div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="timeline-title">Started working at Le Wagon Coding School in London</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p>Joined the team at <a href="https://www.lewagon.com/">Le Wagon London</a> as a Teacher and Software Developer.</p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- WORK -->
-    <div id="work">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-xs-12">
-            <h1>My Work</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-md-6">
-            <h2>Stuff I Built</h2>
-            <p>Check out my <a href="https://github.com/alex-felix">GitHub profile</a></p>
-            <table>
-              <tr>
-                <td>
-                  <span>Personal website</span>
-                </td>
-                <td align="center">
-                  <a href="http://alexbenoit.xyz/"><i class="fa fa-link"></i></a>
-                  <a href="https://github.com/alex-felix/alex-felix.github.io"><i class="fa fa-github"></i></a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span>A very fast Graphical Sudoku Solver in C</span>
-                </td>
-                <td align="center">
-                  <a href="https://github.com/alex-felix/sudokusolver"><i class="fa fa-github"></i></a>
-              </tr>
-              <tr>
-                <td>
-                  <span>A programmming language GitHub analyser</span>
-                </td>
-                <td align="center">
-                  <a href="http://www.github-languages.com/"><i class="fa fa-link"></i></a>
-                  <a href="https://github.com/alex-felix/github-languages"><i class="fa fa-github"></i></a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span>A night mode chrome extension (15k weekly users)</span>
-                </td>
-                <td align="center">
-                  <a href="https://chrome.google.com/webstore/detail/9gag-night-mode/pdoebgohinaejdpncadbahijijgoffke"><i class="fa fa-link"></i></a>
-                  <a href="https://github.com/alex-felix/9gag-night-extension"><i class="fa fa-github"></i></a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span>A trello chrome extension addon (1k weekly user)</span>
-                </td>
-                <td align="center">
-                  <a href="https://chrome.google.com/webstore/detail/trello-card-counter/hepiaakjhimoagmpalbfoojemcnlnagn"><i class="fa fa-link"></i></a>
-                  <a href="https://github.com/alex-felix/cards-plus-trello"><i class="fa fa-github"></i></a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span>Word checker in VueJS/Rails 5.1</span>
-                </td>
-                <td align="center">
-                  <a href="https://vue-autocomplete.herokuapp.com/"><i class="fa fa-link"></i></a>
-                  <a href="https://github.com/alex-felix/vue-autocomplete"><i class="fa fa-github"></i></a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span>Amazing work done with Le Wagon</span>
-                </td>
-                <td align="center">
-                  <a href="https://www.lewagon.com/"><i class="fa fa-link"></i></a>
-                </td>
-              </tr>
-            </table>
-            <p>See my open source contributions on <a href="https://github.com/alex-felix">GitHub</a></p>
-          </div>
-          <div class="col-xs-12 col-md-6">
-            <h2>Stuff I Wrote</h2>
-            <p>Check out my <a href="https://imperial.academia.edu/AlexandreBenoit">Academia profile</a></p>
-            <table>
-              <tr>
-                <td>
-                  <span>Visual SLAM Algorithms for Drone Autonomous Navigation (MEng Thesis)</span>
-                </td>
-                <td>
-                  <a href="https://www.academia.edu/29445813/Monocular_Visual_SLAM_for_Safe_Autonomous_Navigation_of_Miniature_Aerial_Vehicles_in_Unknown_Environments" target="_blank"><i class="fa fa-file-text"></i></a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span>SLAM Algorithms for Autonomous Flight (Literature Review)</span>
-                </td>
-                <td>
-                  <a href="https://www.academia.edu/28884907/Literature_Review_Implementing_a_Monocular_SLAM_Algorithm_for_Autonomous_Flight_in_an_Unknown_Environment" target="_blank"><i class="fa fa-file-text"></i></a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span>Smart Activity Recommendation Engine for Diabetes Patients</span>
-                </td>
-                <td>
-                  <a href="https://www.academia.edu/28884764/An_Activity_Recommender_System_for_Patients_with_Diabetes" target="_blank"><i class="fa fa-file-text"></i></a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span>Self-Navigating Robot for Conducting Clinical Questionnaires</span>
-                </td>
-                <td>
-                  <a href="https://www.academia.edu/28884675/Self-Navigating_Assistive_Robotic_Technology_for_Conducting_Clinical_Questionnaires" target="_blank"><i class="fa fa-file-text"></i></a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span>Interfacing Avalanche Beacons with Modern Smartphones</span>
-                </td>
-                <td>
-                  <a href="https://www.academia.edu/28884817/An_Investigation_into_the_Potential_of_Interfacing_Avalanche_Beacons_with_Current_Generation_Smartphones" target="_blank"><i class="fa fa-file-text"></i></a>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- CONTACT -->
-    <div id="contact">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-xs-12">
-            <h1>Contact Me</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-md-6 offset-md-3">
-            <form method="POST" action="http://formspree.io/alexander.benoit@outlook.com">
-              <div class="form-group">
-                <label for="email">What's your email?</label>
-                <input type="email" name="email" class="form-control input-width" required placeholder="Your email" style="">
-              </div>
-              <div class="form-group">
-                <label for="message">What's your message?</label>
-                <textarea name="message" class="form-control input-width" rows="3" required placeholder="Your message" style=""></textarea>
-              </div>
-              <input type="submit" class="button-contact" value="Submit"> or <a href="mailto:me@alexbenoit.xyz">drop me a simple email!</a>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- FOOTER -->
-    <div id="footer">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-xs-12">
-            <p>Hosted with <i class="fa fa-heart-o"></i> on GitHub Pages</p>
-            <hr>
-            <em>Those who are crazy enough to think they can change the world usually do.</em>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <script src="js/vendor/particles.js"></script>
     <script type="text/javascript">
       particlesJS('particles', {"particles":{"number":{"value":260,"density":{"enable":true,"value_area":1200}},"color":{"value":"#C9C9C9"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":1,"random":true,"anim":{"enable":true,"speed":1,"opacity_min":0,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":4,"size_min":0.3,"sync":false}},"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":1,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":600}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"bubble"},"onclick":{"enable":false,"mode":"bubble"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":250,"size":0,"duration":2,"opacity":0,"speed":3},"repulse":{"distance":400,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});</script>
     </script>
-    <script src="js/vendor/jquery-3.1.0.js"></script>
-    <script src="js/alexweb.navbar.js"></script>
-
   </body>
 </html>
